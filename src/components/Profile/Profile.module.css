@@ -53,6 +53,8 @@
   padding-block: 20px;
   margin: 0;
   border-top: 1px solid #a0aab5;
+  cursor: pointer;
+  transition: background-color 250ms ease-in;
 }
 
 .stats li:not(:last-child) {
@@ -72,4 +74,8 @@
 .quantity {
   padding-top: 5px;
   font-weight: 700;
+}
+
+.stats li:hover {
+  background-color: rgb(236, 230, 230);
 }

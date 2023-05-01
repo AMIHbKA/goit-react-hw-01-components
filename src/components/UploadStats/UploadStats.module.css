@@ -26,8 +26,24 @@
   align-items: center;
   width: 80px;
   height: 80px;
+  cursor: pointer;
+  transition: transform ease-in-out 250ms;
+}
+
+.item:hover {
+  transform: translateY(-30%);
 }
 
 .percentage {
   font-size: 1.5em;
+}
+
+.item:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.item:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }

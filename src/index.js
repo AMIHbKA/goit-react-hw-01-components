@@ -14,21 +14,23 @@ import data from './data/data.json';
 import friends from './data/friends.json';
 import transactions from './data/transactions.json';
 
+let tskCount = 0;
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <TaskDiv number={1}>
+    <TaskDiv number={(tskCount += 1)} text="Profile">
       <Profile user={user} />
     </TaskDiv>
 
-    <TaskDiv number={2}>
+    <TaskDiv number={(tskCount += 1)} text="Upload Stats">
       <UploadStats title="Upload stats" items={data} />
     </TaskDiv>
 
-    <TaskDiv number={3}>
+    <TaskDiv number={(tskCount += 1)} text="FriendList">
       <FriendList friends={friends} />
     </TaskDiv>
 
-    <TaskDiv number={4}>
+    <TaskDiv number={(tskCount += 1)} text="History Transactions">
       <HistoryTransactions transactions={transactions} />
     </TaskDiv>
   </React.StrictMode>

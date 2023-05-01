@@ -39,3 +39,12 @@
   color: #fff;
   background-color: #00bcd5;
 }
+
+tbody {
+  cursor: pointer;
+}
+
+.transaction-history tr:hover {
+  background-color: #00bcd5;
+  color: #fff;
+}

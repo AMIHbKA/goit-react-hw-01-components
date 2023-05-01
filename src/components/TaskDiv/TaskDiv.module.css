@@ -9,3 +9,7 @@
 .task-container:nth-child(odd) {
   background-color: #fff;
 }
+
+.task-header {
+  margin-bottom: 1em;
+}
