@@ -1,6 +1,5 @@
 .statistics {
   margin-inline: auto;
-  margin-top: 30px;
   text-align: center;
 }
 
@@ -9,7 +8,7 @@
   text-transform: uppercase;
 }
 
-.statList {
+.stat-list {
   display: flex;
   justify-content: center;
   margin-top: 30px;

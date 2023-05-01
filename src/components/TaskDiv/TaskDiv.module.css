@@ -1,0 +1,11 @@
+.task-container {
+  padding: 50px;
+}
+
+.task-container:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.task-container:nth-child(odd) {
+  background-color: #fff;
+}
